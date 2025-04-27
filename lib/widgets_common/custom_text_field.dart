@@ -56,7 +56,7 @@ class CustomTextField extends StatelessWidget {
             keyboardType: keyboardType,
             validator: validator,
             style: TextStyle(
-              color: AppTheme.primaryColor,
+              color: Colors.black,
               fontSize: 16,
             ),
             decoration: InputDecoration(

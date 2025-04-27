@@ -3,7 +3,7 @@ import '../ui/theme/theme.dart';
 
 class MyButton extends StatelessWidget {
   final String text;
-  final VoidCallback? onPressed;  // Changed to nullable
+  final VoidCallback? onPressed;
   final double? width;
   final double height;
   final bool isLoading;
@@ -11,7 +11,7 @@ class MyButton extends StatelessWidget {
 
   const MyButton({
     required this.text,
-    required this.onPressed,  // Still required but now nullable
+    required this.onPressed,
     this.color = AppTheme.primaryColor,
     this.width,
     this.height = 56,

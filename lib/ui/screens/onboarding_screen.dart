@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_ordering_system/ui/screens/outh_screens/login_screen.dart';
 import 'package:get/get.dart';
-import '../theme/const_data.dart';
+import '../utils/const_data.dart';
 import '../theme/theme.dart';
 
 class OnboardingScreen extends StatefulWidget {
